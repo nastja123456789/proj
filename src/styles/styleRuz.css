@@ -1,0 +1,212 @@
+#ruz .navbar{
+    background-color: #e3f2fd;
+    padding: 0 1rem;
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.05);
+}
+
+.langs{
+    max-width: 8em;
+    min-height: 2em;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+.ruz-nav-link.active{
+    font-weight: 700;
+}
+
+.btn-toolbar{
+    margin-top: 3em;
+    margin-left: 2em;
+}
+
+.input-group{
+    margin-left: 2em;
+}
+
+.input-date{
+    margin-left: 2em;
+}
+
+#btnGroupDrop1{
+    margin-left: 2em;
+}
+
+#btn-group2_id{
+    margin-left: 1em;
+}
+
+/* .list{
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+} */
+
+.box-wrapper{
+    width: 78px;
+    text-align: center;
+    margin-left: 2em;
+}
+
+.box-wrapper .box{
+    padding: 0 8px 4px;
+    background-color: #e3f2fd;
+}
+
+.box-wrapper .day{
+    background-color: #fff;
+    margin: 4px 0;
+}
+
+.box-wrapper .box .week{
+    font-weight: 700;
+}
+
+.day-items{
+
+    display: flex;
+    width: 100%;
+}
+
+.day-items{
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+
+}
+
+.item .type .time{
+    background-color: #eee;
+    padding: 4px;
+}
+
+.ui-inplace{
+    display: inline-block;
+}
+
+.item{
+    margin-right: 1rem!important;
+}
+
+
+.title{
+    font-weight: 500;
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.ui-inplace .ui-inplace-display {
+    /* display: inline-block; */
+    padding: 0;
+    border-bottom: 1px dashed #0275d8;
+    border-radius: 0;
+    font-weight: inherit;
+    white-space: nowrap; /* Отменяем перенос текста */
+    overflow: hidden; /* Обрезаем содержимое */
+    text-overflow: ellipsis; /* Многоточие */
+    max-width: 10rem;
+}
+
+.lecturer {
+    text-transform: capitalize;
+}
+
+.kind {
+    font-size: .9rem;
+    font-style: italic;
+    margin-top: -4px;
+}
+
+.noUi-connect {
+    background: #e3f2fd;
+}
+
+.noUi-tooltip{
+    font-size: 12pt;
+    font-weight: bold;
+}
+.noUi-tooltip::after{
+    content: ' пара';
+}
+
+.noUi-horizontal{
+    width: 500px;
+    height: 40px;
+}
+
+.noUi-horizontal .noUi-handle{
+    width: 50px;
+    height: 50px;
+}
+
+.noUi-handle:before{
+    top: 11px;
+    left: 22px;
+    height: 25px;
+}
+.noUi-handle:after{
+    top: 11px;
+    left: 26px;
+    height: 25px;
+}
+
+/* .noUi-active .noUi-tooltip {
+  display: block;
+} */
+#ruz-search{
+    border-right: 0;
+}
+#ruz-search-icon{
+    border-left: 0;
+    background: #fff;
+}
+#ruz-content{
+    min-height: 500px;
+}
+#search-advice-wrapper{
+    display:none;
+    width: 31vw;
+    max-height: 350px;
+    background-color: white;
+    color: black;
+    opacity: 0.95;
+    position: absolute;
+    z-index:999;
+    top: 5vh; left: 0px;
+    overflow: auto;
+    margin-left: 15px;
+}
+#search-advice-wrapper .advice-variant{
+    cursor: pointer;
+    padding: 5px;
+    text-align: left;
+}
+#search-advice-wrapper .advice-variant:hover{
+    color: black;
+    background-color:#e3f2fd;
+}
+#search-advice-wrapper .active{
+    cursor: pointer;
+    padding: 5px;
+    color:black;
+    background-color:#e3f2fd;
+}
+
+.ruz-keyboard{
+    position: absolute;
+    bottom: 10vh;
+    display: none;
+}
+
+
+.hg-ruz-custom {
+    height: 80px!important;
+    font-size: 24pt;
+}
+.hg-button-space{
+    width: 70%;
+}
+/*
+#section0 #slide0{
+  min-height: 100vh;
+} */

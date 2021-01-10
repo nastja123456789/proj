@@ -1,0 +1,270 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+/*@import url(icons/font-awesome/css/all.css);
+@import url(icons/weather-icons/css/weather-icons.min.css);
+@import url(icons/themify-icons/themify-icons.css);
+@import url(icons/material-design-icons/css/materialdesignicons.min.css);*/
+/*
+@import url(icons/flag-icon-css/flag-icon.min.css);
+@import url(icons/simple-line-icons/css/simple-line-icons.css);
+@import url(icons/crypto-icons/cryptocoins.css);
+*/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+a{
+    text-decoration:none;
+}
+/* table {
+    border-spacing: 0;
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+} */
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+    font-family: arial,helvetica;
+}
+body::-webkit-scrollbar { width: 0 !important }
+.wrap{
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    position: relative;
+}
+h1{
+    font-size: 6em;
+}
+p{
+    font-size: 2em;
+}
+.intro p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.5em;
+}
+.fp-tableCell{
+    display: block;
+}
+/* .navbar{
+	position: absolute;
+	width: 100vw;
+	z-index: 100;
+} */
+.fp-slides{
+    position: static;
+}
+
+.fp-tooltip{
+    color: #333!important;
+}
+
+#fp-nav{
+    display: none!important;
+}
+/* #fp-nav ul li a span, .fp-slidesNav ul li a span{
+	background: #e3f2fd!important;
+} */
+/* .section{
+	text-align:center;
+}*/
+
+#menu-table, #ruz-content{
+    margin-bottom: 5vh;
+}
+/* Toast Design
+ * --------------------------------------- */
+
+#toast-container > .toast {
+    bottom: 6vh;
+    font-size: 18pt;
+    width: 40vw!important;
+    max-width: 40vw!important;
+}
+
+#toast-container > .toast {
+    background-color: rgb(0, 0, 0.4, 0);
+}
+
+
+/* Demos Menu
+ * --------------------------------------- */
+#demosMenu{
+    position:fixed;
+    bottom: 10px;
+    right:10px;
+    z-index: 999;
+}
+
+#menu-header{
+    z-index: 1000;
+    height: 10vh;
+    font-size: 24pt;
+}
+
+#complex-ul{
+    width: 70%;
+    max-width: 70%;
+}
+#complex-list{
+    display: table-cell;
+    width: 100vw;
+    padding-top: 10vh;
+}
+
+/* Navigation Style
+ * --------------------------------------- */
+.map{
+    width: 100%;
+    height: 100%;
+}
+.floor{
+    width: 90%;
+    height: 70%;
+    position: absolute;
+    /* bottom: 10px; */
+    top: 20px;
+    left: 20px;
+}
+
+.floor-change{
+    position: absolute;
+    /* bottom: 25px; */
+    right: 10px;
+    bottom: 11vh;
+}
+
+.floor-num:hover{
+    border-color: #6c757d;
+    background-color: #6c757d;
+}
+
+.floor-num:focus{
+    box-shadow: none;
+}
+
+
+/*----Search----*/
+.cab-search{
+    position: absolute;
+    width: 15%;
+    height: 15%;
+    top: 10px;
+    right: 10px;
+}
+.nav-keyboard{
+    display: none;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+.nav-keyboard.hg-layout-custom{
+    background: rgb(255, 255, 255, 0.9);
+}
+.nav-keyboard.hg-layout-custom .hg-button.hg-custom {
+    background: rgb(0, 0, 0, 0.5);
+    color: white;
+    border-bottom: 0;
+    font-size: 20pt;
+}
+.nav-keyboard.hg-layout-custom .hg-button.hg-disable {
+    background: rgba(150, 150, 150, 0.1);
+}
+.nav-keyboard.hg-layout-custom .hg-button.hg-shift {
+    font-size: 12pt;
+}
+.nav-keyboard.hg-layout-custom .hg-button.hg-shift-back {
+    font-size: 32pt;
+}
+.cab-search * {box-sizing: border-box;}
+
+.cab-search #cab-search-form{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 42px;
+    font-size: 18pt;
+}
+.cab-search input {
+    height: 42px;
+    width: 100%;
+    color: #000;
+    padding: 0 42px 0 15px;
+    border: none;
+    border-bottom: 2px solid transparent;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 2px solid #ccc;
+}
+.cab-search input::placeholder{
+    color: #ccc;
+}
+/*.cab-search input:focus {
+  width: 200px;
+  z-index: 1;
+  border-bottom: 2px solid #F9F0DA;
+}*/
+.cab-search button {
+    background: rgb(231, 64, 64);
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    z-index: 1;
+    cursor: pointer;
+}
+
+#stop-animation{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+
+#here-btn{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 10000;
+}
